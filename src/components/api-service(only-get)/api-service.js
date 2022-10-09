@@ -21,7 +21,8 @@ function fetchPics(text, page) {
   } 
   
   console.log(params.q, params.page);
-  const response = axios.get("https://pixabay.com/api/",{ params });
+  const response = axios.get("https://pixabay.com/api/", { params });
+  //  console.log(response);
   return response;
         
   };
